@@ -11,6 +11,6 @@
 
  Create the Endpoint that when called it will give you the CPU response.
 
-*Reviewer's Name*: 
+*Reviewer's Name*: Michael Heckerman
 
-*Peer Review*: 
+*Peer Review*: Figma looks good. Code is clean and easy to read. Endpoints were tested in both swagger and postman, both work. Hosted API endpoint works and returns the need output. Good Jod Dude.
