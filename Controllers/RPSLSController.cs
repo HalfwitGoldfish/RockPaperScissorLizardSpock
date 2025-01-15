@@ -4,7 +4,7 @@ using RockPaperScissorLizardSpock.Services;
 namespace RockPaperScissorLizardSpock.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     public class RPSLSController : ControllerBase
     {
         private readonly RPSLSServices _rpslsServices;
