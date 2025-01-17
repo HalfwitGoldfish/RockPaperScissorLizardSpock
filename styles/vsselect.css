@@ -33,3 +33,9 @@
     display: flex;
     justify-content: space-around;
 }
+
+#hometutorialRow
+{
+    display: flex;
+    justify-content: space-between;
+}
