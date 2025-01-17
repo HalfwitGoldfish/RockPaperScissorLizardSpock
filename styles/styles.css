@@ -1,0 +1,94 @@
+body
+{
+    background-color: #000123;
+    color: #FFFFFF;
+    margin: 0px;
+    padding: 0px;
+}
+
+button
+{
+    background-color: #FFFFFF;
+    color: black;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+button:hover
+{
+    background-color: #FE0CCE;
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+}
+
+#tutorialBtn
+{
+    display: flex;
+    justify-content: end;
+    height: 75px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+#tutorialBtn button
+{
+    width: 200px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#rpsls
+{
+    display: flex;
+    justify-content: center;
+    font-size: 56px;
+    font-weight: bold;
+}
+
+#rpsls h1
+{
+    margin-bottom: 0px;
+}
+
+#gameTitle
+{
+    display: flex;
+    justify-content: center;
+    font-size: 88px;
+    font-weight: bold;
+}
+
+#gameTitle h2
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#container
+{
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    height: 100vh;
+}
+
+.row1
+{
+    grid-row: 1;
+}
+
+.row2
+{
+    grid-row: 2;
+}
+
+.row3
+{
+    grid-row: 3;
+}
