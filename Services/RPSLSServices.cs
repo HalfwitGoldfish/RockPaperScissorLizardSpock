@@ -8,7 +8,7 @@ namespace RockPaperScissorLizardSpock.Services
             return rng.Next(1, 6) switch {
                 1 => "Rock",
                 2 => "Paper",
-                3 => "Scissors",
+                3 => "Scissor",
                 4 => "Lizard",
                 5 => "Spock",
                 _ => "Error"
